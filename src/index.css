@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+ .input_component {
+   padding: 10px 15px ;
+
+ }
+
+
+#form {
+    width: 76%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 12%;
+    display: flex;
+
+
+
+}
+.cont {
+    width: 500px;
+    display: inline-block;
+    margin-left: 500px;
+    padding: 10px;
+}
+
+input[type=checkbox]:checked + label {
+  text-decoration: line-through;
+}
